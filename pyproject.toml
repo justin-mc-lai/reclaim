@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reclaim-macos"
+version = "0.1.0"
+description = "macOS disk triage and safe cleanup, built for humans and agents"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+keywords = ["macos", "disk", "cleanup", "cli", "agent"]
+
+[project.scripts]
+reclaim = "reclaim:main"
+
+[tool.setuptools]
+py-modules = ["reclaim"]
