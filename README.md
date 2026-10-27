@@ -2,6 +2,8 @@
 
 macOS disk triage and safe cleanup — one CLI for humans, one JSON contract for agents.
 
+[中文说明](README.zh-CN.md)
+
 `reclaim` answers three questions without guessing:
 
 1. **What is eating the disk** — actual bytes, sparse files excluded.
